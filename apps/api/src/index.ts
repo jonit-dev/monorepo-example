@@ -11,7 +11,7 @@ app.use(express.json())
 app.get("/", async (req, res) => {
 
   return res.status(200).send({
-    message: Calculate.sum(2, 4)
+    message: Calculate.sum(2, 3)
   })
 
 })

@@ -1,9 +1,10 @@
 {
   "watch": [
-    "../**/src/*.ts"
+    "../../apps/**/src/*.ts",
+    "../../packages/**/src/*.ts"
   ],
   "ext": "ts",
   "execMap": {
-    "ts": "ts-node src/index.ts"
+    "ts": "lerna run build --since master --stream && ts-node src/index.ts"
   }
 }

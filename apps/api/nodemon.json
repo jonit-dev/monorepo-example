@@ -5,6 +5,6 @@
   ],
   "ext": "ts",
   "execMap": {
-    "ts": "lerna run build --since --stream && ts-node src/index.ts"
+    "ts": "lerna run build --since HEAD --stream && ts-node src/index.ts"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "@yw/bs",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "lodash": "4.17.19"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.159"
+  }
+}

@@ -16,5 +16,5 @@ app.get("/", async (req, res) => {
 });
 app.listen(port, async () => {
     console.log(`App listening on port ${port}`);
-    console.log(`Blend result is the following => ${math_1.Calculate.sum(5, 4)}`);
+    console.log(`Blend result is the following => ${math_1.Calculate.sum(5, 5)}`);
 });

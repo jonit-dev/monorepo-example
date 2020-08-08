@@ -1,4 +1,4 @@
 
 export class Calculate {
-  public static sum = (n1: number, n2: number) => n1 + n2 + 10
+  public static sum = (n1: number, n2: number) => n1 + n2
 }

@@ -9,6 +9,6 @@ class BSGenerator {
 }
 exports.BSGenerator = BSGenerator;
 BSGenerator.generateRandomBS = () => {
-    const BSList = ['Organic food is healthier and good to the environemnt', 'Trump is a great leader'];
+    const BSList = ['Organic food is healthier and good to the environemnt', 'Trump is a great leader', 'Earth is flat'];
     return lodash_1.default.sample(BSList);
 };
